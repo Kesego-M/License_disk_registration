@@ -11,6 +11,8 @@ body {
 	line-height: 1.80857;
 	font-weight: normal;
 	overflow-x: hidden;
+}
+
 .main{
 	width: 100%;
 	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(files/bg1.jpg);
