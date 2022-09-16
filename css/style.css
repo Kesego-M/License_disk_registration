@@ -45,13 +45,13 @@ padding-top: 10px;
 }
 
 .menu{
-	width: 700px;
+	width: 800px;
 	float: left;
 	height: 70px;
 }
 
 ul{
-	float: left;
+	float: right;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -73,7 +73,7 @@ ul li a{
 }
 
 ul li a:hover{
-	color: #ff7200;
+	color: #e68e09;
 }
 
 .content{
@@ -104,11 +104,27 @@ ul li a:hover{
 .content .join{
 	width: 160px;
 	height: 40px;
-	background: #ff7200;
+	background: #cb6512;
 	border: none;
 	margin-bottom: 10px;
 	margin-left: 20px;
 	font-size: 18px;
 	border-radius: 10px;
 	cursor: pointer;
+}
+
+.content .check_status{
+    position: absolute;
+    top: 150px;
+    right: -80px;
+}
+
+.content .check_status{
+    font-family: Arial;
+
+
+}
+
+.content .check_status .status{
+    color: #ff7200;
 }
