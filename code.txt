@@ -1,0 +1,95 @@
+            <div class="check_status">            
+                <form>
+                <h3 class="status">Check renewal status(<em>For registered clients only</em>) </h3>
+                <label for="id_num">ID Number:</label><br>
+                <input type="number" id="id_num" name="id_num"><br>
+
+                <label for="client_id">Client ID:</label><br>
+                <input type="number" id="client_id" name="client_id"><br>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+                </form>
+            </div> 
+
+            // form to check renewal status. 
+
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <dv class="signup-page">
+        <h1>Sign Up</h1>
+        <form>
+            <label>First Name</label>
+            <input type="text" placeholder="">
+            <label>Last Name</label>
+            <input type="text" placeholder="">
+            <label>Email</label>
+            <input type="email" placeholder="">
+            <label>Address</label>
+            <input type="address" placeholder="">
+            <label>Contact Number</label>
+            <input type="number" placeholder="">
+            <u><input type="button" value="Submit"></u>
+            
+        </form>
+        
+        <p>By clicking the Sign Up button, you agree to our <br>
+        <a href="#">Terms and conditions</a> and <a href="#">Policy privacy</a>
+        </p>
+    </div>
+</body>
+<div class="space">  
+               <input type="checkbox">&nbsp;  
+               <label>I agree with terms and conditions.</label>  
+          </div>  
+//SignUp code
+
+body{
+	background-color:rgb(66, 194, 237) ;
+	font-family: 'Times New Roman';
+}
+.signup-page{
+	width: 360px;
+	height: 620px;
+	margin: auto;
+	margin-top: 20px;
+	background-color:white ;
+}
+ h1{
+	text-align: center;
+	padding: top 15px;
+
+ }
+ 
+ form{
+	width:300px;
+	margin-left: 20px;
+
+ }
+ form label{
+	display: flex;
+	margin-top:20px;
+	font-size: 18px;
+ }
+ form input{
+	width: 100px;
+	padding: 7px;
+    border: none;
+	border: 1px solid gray;
+	border-radius: 6px;
+	outline: none;
+ }
+
+ input[type="button"]{
+	width:320px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: #cb6512;
+ }
+ //css code for Signup
