@@ -241,6 +241,40 @@ ul li a:hover{
 	color: red;
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+  *{
+	font-family: 'Nunito', sans-serif;
+	margin:0; padding:0;
+	box-sizing: border-box;
+	outline: none; border: none;
+	text-decoration: none;
+	transition: all .2s linear;
+	text-transform: capitalize;
+  }
+
+  html{
+	font-size:62.5%; 
+  }
+
+  body{
+	background: #eee;
+  }
+.ProContainer{
+	max-width: 1200px;
+	margin:0 auto;
+	padding:3rem 2rem;
+}
+.procontainer .title{
+	font-size: 3.5rem;
+	color:#444;
+	margin-bottom: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+
 
 
 
